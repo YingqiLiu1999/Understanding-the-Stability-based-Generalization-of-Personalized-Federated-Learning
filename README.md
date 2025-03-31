@@ -12,11 +12,11 @@ This repository contains the official implementation for the manuscript:
 The implementations of each method are provided in the folder `/fedml_api/standalone`, while experiments are provided in the folder `/fedml_experiments/standalone`.
 
 
-Directly python the corresponding files to run the code in `/fedml_experiments/standalone`.
+Directly python the corresponding files to run the code in /fedml_experiments/standalone.
 
 ```
-python /fedml_experiments/standalone/dfedalt/main_dfedalt_dis.py
-python /fedml_experiments/standalone/fedalt/main_fedalt_dis.py
+python fedml_experiments/standalone/dfedalt/main_dfedalt_dis.py
+python fedml_experiments/standalone/fedalt/main_fedalt_dis.py
 ```
 
 This code is based on the project in [DisPFL](https://github.com/rong-dai/DisPFL) and [DFedPGP](https://github.com/YingqiLiu1999/DFedPGP). 
